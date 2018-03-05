@@ -20,7 +20,10 @@
 3. Edit the following entries in your `~/.zshrc` file:
 
     ```
+    # add this before loading the theme
+    export DEFAULT_USER="your user name"
     ZSH_THEME="cviebrock/cviebrock"
+
     ZSH_CUSTOM=$HOME/.oh-my-zsh-custom
     ```
 
